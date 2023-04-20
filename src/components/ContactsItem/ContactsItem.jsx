@@ -23,6 +23,7 @@ export const ContactsItem = ({ id, name, number }) => {
     </>
   );
 };
+
 ContactsItem.propTypes = {
   id: PropTypes.string,
   name: PropTypes.string,
